@@ -1,0 +1,49 @@
+{
+ "doctype": "DocType",
+ "name": "Saudization Settings",
+ "module": "Saudization Dashboard",
+ "custom": 0,
+ "is_single": 1,
+ "fields": [
+  {
+   "fieldname": "saudi_nationality",
+   "label": "Saudi Nationality",
+   "fieldtype": "Link",
+   "options": "Country",
+   "reqd": 0,
+   "description": "Select the Country value that represents Saudi nationals in Employee.nationality."
+  },
+  {
+   "fieldtype": "Section Break",
+   "fieldname": "gcc_section",
+   "label": "GCC Nationalities"
+  },
+  {
+   "fieldname": "gcc_nationalities",
+   "label": "GCC Nationalities",
+   "fieldtype": "Table",
+   "options": "Saudization GCC Nationality"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "HR Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1
+  },
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1
+  }
+ ],
+ "allow_rename": 0,
+ "track_changes": 1,
+ "engine": "InnoDB"
+}

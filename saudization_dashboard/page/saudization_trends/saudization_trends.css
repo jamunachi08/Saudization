@@ -1,0 +1,4 @@
+.saud-trends-wrap{padding:15px;}
+.saud-trends-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:12px;}
+.saud-trend-card{border:1px solid var(--border-color,#e5e7eb);border-radius:12px;padding:12px;background:var(--card-bg,#fff);box-shadow:0 1px 2px rgba(0,0,0,.04);}
+.saud-trend-card h4{margin:0 0 8px 0;font-size:14px;}

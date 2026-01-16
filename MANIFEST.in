@@ -1,0 +1,3 @@
+include README.md
+include license.txt
+recursive-include saudization_dashboard *.json *.js *.css *.html *.png *.jpg *.jpeg *.svg *.txt *.md

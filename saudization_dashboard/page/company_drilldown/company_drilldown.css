@@ -1,0 +1,14 @@
+.saud-drill-wrap{max-width:1200px;margin:0 auto}
+.saud-drill-grid{display:grid;grid-template-columns:1fr;gap:14px}
+.saud-drill-card{background:var(--card-bg, #fff);border:1px solid var(--border-color, #e5e7eb);border-radius:16px;padding:14px}
+.saud-drill-card h4{margin:0 0 10px 0;font-weight:700}
+.saud-drill-table{width:100%;border-collapse:separate;border-spacing:0}
+.saud-drill-table th,.saud-drill-table td{padding:10px 10px;border-bottom:1px solid rgba(0,0,0,0.06);vertical-align:middle}
+.saud-drill-table th{text-align:left;font-size:12px;color:var(--text-muted,#6b7280);font-weight:700}
+.saud-drill-table tr:hover td{background:rgba(0,0,0,0.02)}
+.saud-link{cursor:pointer;text-decoration:none}
+.saud-pill{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:700}
+.saud-kpi-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+.saud-kpi{background:rgba(0,0,0,0.02);border:1px solid rgba(0,0,0,0.06);border-radius:14px;padding:10px 12px;min-width:200px}
+.saud-kpi .label{font-size:12px;color:var(--text-muted,#6b7280);font-weight:700}
+.saud-kpi .value{font-size:20px;font-weight:800;margin-top:2px}

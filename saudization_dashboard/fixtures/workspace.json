@@ -1,0 +1,85 @@
+[
+  {
+    "doctype": "Workspace",
+    "name": "AlphaX Saudization",
+    "title": "AlphaX Saudization",
+    "module": "Saudization Dashboard",
+    "icon": "octicon octicon-graph",
+    "is_standard": 1,
+    "public": 0,
+    "sequence_id": 25.0,
+    "charts": [],
+    "quick_lists": [],
+    "shortcuts": [
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "Page",
+        "label": "Executive Scorecard",
+        "link_to": "executive-scorecard"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "Page",
+        "label": "Saudization Trends",
+        "link_to": "saudization-trends"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "Page",
+        "label": "Holding Comparison",
+        "link_to": "holding-comparison"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "Page",
+        "label": "Employee Drilldown",
+        "link_to": "employee-drilldown"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "Page",
+        "label": "Saudization HR Analytics",
+        "link_to": "saudization-hr-analytics"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "Page",
+        "label": "Help / دليل",
+        "link_to": "saudization-dashboard-help"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "DocType",
+        "label": "Saudization Settings",
+        "link_to": "Saudization Settings"
+      },
+      {
+        "doctype": "Workspace Shortcut",
+        "type": "DocType",
+        "label": "Saudization Policy",
+        "link_to": "Saudization Policy"
+      }
+    ],
+    "links": [],
+    "number_cards": [],
+    "custom_blocks": [],
+    "roles": [
+      {
+        "doctype": "Workspace Role",
+        "role": "System Manager"
+      },
+      {
+        "doctype": "Workspace Role",
+        "role": "HR Manager"
+      },
+      {
+        "doctype": "Workspace Role",
+        "role": "CEO"
+      },
+      {
+        "doctype": "Workspace Role",
+        "role": "Managing Director"
+      }
+    ]
+  }
+]

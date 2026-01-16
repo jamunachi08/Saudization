@@ -1,0 +1,28 @@
+{
+ "doctype": "DocType",
+ "name": "Saudization Dashboard Tab",
+ "module": "Saudization Dashboard",
+ "custom": 0,
+ "istable": 1,
+ "editable_grid": 1,
+ "sort_field": "idx",
+ "sort_order": "ASC",
+ "fields": [
+  {"fieldname":"tab_label","label":"Tab Label","fieldtype":"Data","reqd":1,"in_list_view":1},
+  {"fieldname":"tab_type","label":"Tab Type","fieldtype":"Select","options":"Filter Dashboard\nRoute\nReport","default":"Filter Dashboard","reqd":1,"in_list_view":1},
+  {"fieldname":"order","label":"Order","fieldtype":"Int","default":10,"in_list_view":1},
+  {"fieldname":"open_in_new_window","label":"Open in New Window","fieldtype":"Check","default":0},
+  {"fieldtype":"Section Break","fieldname":"target_section","label":"Target"},
+  {"fieldname":"route","label":"Route","fieldtype":"Data","depends_on":"eval:doc.tab_type==\"Route\""},
+  {"fieldname":"report_name","label":"Report","fieldtype":"Link","options":"Report","depends_on":"eval:doc.tab_type==\"Report\""},
+  {"fieldtype":"Section Break","fieldname":"filters_section","label":"Default Filters"},
+  {"fieldname":"company","label":"Company","fieldtype":"Link","options":"Company"},
+  {"fieldname":"department","label":"Department","fieldtype":"Link","options":"Department"},
+  {"fieldname":"designation","label":"Designation","fieldtype":"Link","options":"Designation"},
+  {"fieldname":"nationality_group","label":"Nationality Group","fieldtype":"Select","options":"Saudi\nGCC\nNon-GCC\nUnknown"}
+ ],
+ "permissions": [],
+ "allow_rename": 0,
+ "track_changes": 1,
+ "engine": "InnoDB"
+}

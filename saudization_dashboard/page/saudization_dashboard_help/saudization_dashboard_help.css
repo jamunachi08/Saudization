@@ -1,0 +1,10 @@
+.sd-help{max-width:1100px;margin:0 auto;}
+.sd-help-card{background:var(--card-bg,#fff);padding:18px;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,0.06);}
+.sd-help-header{display:flex;gap:14px;align-items:center;flex-wrap:wrap;}
+.sd-help-header img{height:54px;max-width:240px;}
+.sd-help-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:14px;}
+@media(min-width:900px){.sd-help-grid{grid-template-columns:1fr 1fr;}}
+.sd-card{background:var(--card-bg,#fff);border:1px solid var(--border-color,#eee);padding:14px;border-radius:12px;}
+.sd-ar{direction:rtl;text-align:right;}
+.sd-en{direction:ltr;text-align:left;}
+.sd-muted{color:var(--text-muted,#6b7280);}

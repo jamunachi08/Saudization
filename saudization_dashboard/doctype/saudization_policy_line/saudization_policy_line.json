@@ -1,0 +1,62 @@
+{
+ "doctype": "DocType",
+ "name": "Saudization Policy Line",
+ "module": "Saudization Dashboard",
+ "custom": 0,
+ "istable": 1,
+ "editable_grid": 1,
+ "sort_field": "idx",
+ "sort_order": "ASC",
+ "fields": [
+  {
+   "fieldname": "dimension_type",
+   "label": "Dimension Type",
+   "fieldtype": "Select",
+   "options": "Department\nDesignation\nDepartment+Designation\nNationality Group",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "department",
+   "label": "Department",
+   "fieldtype": "Link",
+   "options": "Department",
+   "depends_on": "eval:doc.dimension_type==\"Department\" || doc.dimension_type==\"Department+Designation\"",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "designation",
+   "label": "Designation",
+   "fieldtype": "Link",
+   "options": "Designation",
+   "depends_on": "eval:doc.dimension_type==\"Designation\" || doc.dimension_type==\"Department+Designation\"",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "nationality_group",
+   "label": "Nationality Group",
+   "fieldtype": "Select",
+   "options": "Saudi\nGCC\nNon-GCC\nUnknown",
+   "depends_on": "eval:doc.dimension_type==\"Nationality Group\"",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "target_percent",
+   "label": "Target %",
+   "fieldtype": "Percent",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "min_headcount",
+   "label": "Minimum Headcount",
+   "fieldtype": "Int",
+   "default": 0,
+   "description": "Ignore this segment if headcount is below this threshold."
+  }
+ ],
+ "permissions": [],
+ "allow_rename": 0,
+ "track_changes": 1,
+ "engine": "InnoDB"
+}

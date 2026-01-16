@@ -1,0 +1,14 @@
+{
+  "doctype": "Page",
+  "name": "saudization-dashboard-help",
+  "page_name": "saudization-dashboard-help",
+  "title": "دليل لوحة السعودة - AlphaX",
+  "module": "Saudization Dashboard",
+  "icon": "help",
+  "standard": "Yes",
+  "restrict_to_domain": null,
+  "roles": [
+    "System Manager",
+    "HR Manager"
+  ]
+}
