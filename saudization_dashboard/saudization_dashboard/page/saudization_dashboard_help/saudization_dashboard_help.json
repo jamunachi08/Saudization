@@ -8,7 +8,14 @@
   "standard": "Yes",
   "restrict_to_domain": null,
   "roles": [
-    "System Manager",
-    "HR Manager"
+    {
+      "doctype": "Has Role",
+      "role": "System Manager"
+    },
+    {
+      "doctype": "Has Role",
+      "role": "HR Manager"
+    }
   ]
 }
+
